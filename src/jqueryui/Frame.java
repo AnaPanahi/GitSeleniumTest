@@ -22,7 +22,7 @@ public class Frame {
 		driver.get("https://jqueryui.com/droppable/");
 
 		// to know how many 'iframe' do we have
-		// System.out.println(driver.findElement(By.tagName("iframe")).size());
+		//System.out.println(driver.findElements(By.tagName("iframe")).size());
 
 		// switch from web object to frame 
 		// since there is only 1 iframe, we can use index to switch to the iframe; like driver.switchTo().frame(0);

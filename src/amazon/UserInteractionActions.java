@@ -38,9 +38,5 @@ public class UserInteractionActions {
 		 */
 		WebElement searcBoxTypeIn = driver.findElement(By.id("twotabsearchtextbox"));
 		action.moveToElement(searcBoxTypeIn).click().keyDown(Keys.SHIFT).sendKeys("shoe").doubleClick().build().perform();
-		
-		
-		
-
 	}
 }
