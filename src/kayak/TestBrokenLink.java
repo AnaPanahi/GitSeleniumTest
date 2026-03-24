@@ -1,4 +1,4 @@
-// testing broken URLs with the status code of 400 or more than 400
+// testing a URL in footer to see if it is broken with the status code of 400 or more than 400
 package kayak;
 
 import java.io.IOException;
@@ -16,7 +16,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class TestBrokenLinks {
+public class TestBrokenLink {
 
 	public static void main(String[] args) throws MalformedURLException, IOException, URISyntaxException {
 		// TODO Auto-generated method stub
